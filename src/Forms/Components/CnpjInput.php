@@ -3,9 +3,9 @@
 namespace JeffersonGoncalves\Filament\CnpjField\Forms\Components;
 
 use Closure;
-use Filament\Forms\Components\Actions\Action;
+use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Set;
+use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Validation\ValidationException;
 use JeffersonGoncalves\Cnpj\Models\Cnpj;
 use JeffersonGoncalves\Cnpj\Support\CnpjSupport;

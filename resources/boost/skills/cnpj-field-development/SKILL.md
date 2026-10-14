@@ -29,7 +29,7 @@ JeffersonGoncalves\Filament\CnpjField
 | `CnpjFieldServiceProvider` | `src/CnpjFieldServiceProvider.php` | Package service provider |
 
 ### Dependencies
-- `filament/filament: ^3.0`
+- `filament/filament: ^4.8`
 - `jeffersongoncalves/laravel-cnpj: ^1.0` (validation, Minha Receita API, caching, model)
 - `spatie/laravel-package-tools: ^1.14.0`
 

@@ -1,6 +1,6 @@
 ## Filament CNPJ Field
 
-A Filament form field for Brazilian company registrations (CNPJ), including the alphanumeric format, with automatic mask formatting (99.999.999/9999-99), check digit validation, company lookup via the Minha Receita API, database caching, and auto-population of company fields. Requires Filament 3.0 and PHP 8.2+.
+A Filament form field for Brazilian company registrations (CNPJ), including the alphanumeric format, with automatic mask formatting (99.999.999/9999-99), check digit validation, company lookup via the Minha Receita API, database caching, and auto-population of company fields. Requires Filament 4.0 and PHP 8.2+.
 
 ### Installation
 
