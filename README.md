@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament CNPJ Field](https://raw.githubusercontent.com/jeffersongoncalves/filament-cnpj-field/2.x/art/jeffersongoncalves-filament-cnpj-field.png)
+![Filament CNPJ Field](https://raw.githubusercontent.com/jeffersongoncalves/filament-cnpj-field/3.x/art/jeffersongoncalves-filament-cnpj-field.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-cnpj-field.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-cnpj-field)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-cnpj-field/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-cnpj-field/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3A2.x)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-cnpj-field/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-cnpj-field/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-cnpj-field.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-cnpj-field)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-cnpj-field.svg?style=flat-square)](LICENSE.md)
 
@@ -26,7 +26,7 @@ The Filament CNPJ Field is a custom input component for Brazilian company regist
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 4.0
+- Filament 5.0
 - Laravel 12.0 or higher
 
 ## Installation
