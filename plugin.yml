@@ -1,0 +1,50 @@
+# ============================================
+# Filament Plugin - Create Plugin Form
+# jeffersongoncalves - filamentphp.com
+# ============================================
+
+# --- Details ---
+name: "CNPJ Field"
+slug: "cnpj-field"
+github_repository: "jeffersongoncalves/filament-cnpj-field"
+description: "Custom input component for Brazilian company registrations (CNPJ), including the alphanumeric format, with formatting, check digit validation, and automatic company lookup."
+
+# --- Images ---
+# Anexe os arquivos de imagem junto com este YAML no chat
+image: "jeffersongoncalves-filament-cnpj-field.png"
+thumbnail: ""
+
+# --- Compatibility & Features ---
+versions:
+  - "v3"
+  - "v4"
+  - "v5"
+
+categories:
+  - "Form Field"
+
+dark_theme_support: true
+translation_support: false
+
+# --- Documentation ---
+documentation_url: ""
+
+versioned_documentation:
+  - version: "v3"
+    url: "https://raw.githubusercontent.com/jeffersongoncalves/filament-cnpj-field/1.x/README.md"
+  - version: "v4"
+    url: "https://raw.githubusercontent.com/jeffersongoncalves/filament-cnpj-field/2.x/README.md"
+  - version: "v5"
+    url: "https://raw.githubusercontent.com/jeffersongoncalves/filament-cnpj-field/3.x/README.md"
+
+documentation_content: ""
+
+# --- URLs ---
+website: ""
+discord: ""
+
+# --- Pricing ---
+anystack_product_id: ""
+
+# --- Acao Final ---
+action: "draft"

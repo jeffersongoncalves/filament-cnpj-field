@@ -1,0 +1,66 @@
+{
+    "name": "jeffersongoncalves/filament-cnpj-field",
+    "description": "The Filament CNPJ Field is a custom input component for Brazilian company registrations (CNPJ), including the new alphanumeric format. It handles CNPJ formatting, check digit validation and automatic company lookup through the Minha Receita API.",
+    "keywords": [
+        "jeffersongoncalves",
+        "laravel",
+        "filament",
+        "filament-cnpj-field",
+        "cnpj"
+    ],
+    "homepage": "https://github.com/jeffersongoncalves/filament-cnpj-field",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Gonçalves",
+            "email": "gerson.simao.92@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^3.0",
+        "jeffersongoncalves/laravel-cnpj": "^1.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.21",
+        "orchestra/testbench": "^10.0|^11.0",
+        "pestphp/pest": "^3.7.4|^4.0",
+        "pestphp/pest-plugin-laravel": "^3.0|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeffersonGoncalves\\Filament\\CnpjField\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeffersonGoncalves\\Filament\\CnpjField\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JeffersonGoncalves\\Filament\\CnpjField\\CnpjFieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
